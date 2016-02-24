@@ -1,0 +1,27 @@
+
+
+
+<h1> MI CUENTA ES:	<% if @numero %>  <%= @numero %> </h1>
+ 
+ <% end %>
+
+
+<form action="/" method="get">
+  <input type="submit" value="suma">
+  <input type="hidden" value="<%= @numero.to_i + 1 %>" name="numero">`
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
